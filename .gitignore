@@ -383,4 +383,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-MyBot/config.txt
+/MyBot/config.txt

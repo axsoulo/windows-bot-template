@@ -187,9 +187,12 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ASCIIMenu.cpp" />
+    <ClCompile Include="Keylogger.cpp" />
     <ClCompile Include="MyBot.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ASCIIMenu.h" />
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\appcommand.h" />
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\application.h" />
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\auditlog.h" />
@@ -282,7 +285,11 @@
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\win32_safe_warnings.h" />
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\wsclient.h" />
     <ClInclude Include="dependencies\include\dpp-10.1\dpp\zlibcontext.h" />
+    <ClInclude Include="Keylogger.h" />
     <ClInclude Include="MyBot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
